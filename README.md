@@ -41,16 +41,15 @@ Give script name: TutorialForYOLO
 input: select the dataset you select tutorialforyolodataset
 Output: /kaggle/working
  (Reason is that this directory you can read/write files)
-
-                                    Section 2 script summary:
-                                       Copy data from input directory to /kaggle/working directory. 
-                                       Prepare YOLO format XML file
-                                       Create anchors. 
-                                      Train process,
-                                      Evaluation process. 
-                                      Prediction 
+ Section 2 script summary:
+       Copy data from input directory to /kaggle/working directory. 
+       Prepare YOLO format XML file
+       Create anchors. 
+       Train process,
+       Evaluation process. 
+       Prediction 
                                                        
-3.	Step to run in ARC machine huckleberry1.arc.vt.edu
+3. Step to run in ARC machine huckleberry1.arc.vt.edu
 1. Upload tutorialforyolodataset.zip file to ARC machine and unzip it (unzip tutorialforyolodatasetForArc.zip). 
    For example /home/Kshitiz/tutorialForYOLO
 2. Request resource to use your account. 
