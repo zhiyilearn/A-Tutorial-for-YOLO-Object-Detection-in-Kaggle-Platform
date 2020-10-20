@@ -62,7 +62,7 @@ Section 2 script summary:
 1. Upload tutorialforyolodataset.zip file to ARC machine and unzip it (unzip tutorialforyolodatasetForArc.zip). (from this directory: /groups/songli_lab/CornImageAnalysis)
    For example /home/Kshitiz/tutorialForYOLO
 2. Request resource to use your account. 
-                salloc -N 2 --gres=gpu:4  --partition=normal_q --account=Introtogds --exclusive 
+                salloc -N 2 --gres=gpu:4  --partition=normal_q --account=XXXX --exclusive 
                --time=72:00:00
 3. Set up environment: 
     module load gcc cuda Anaconda3 jdk
