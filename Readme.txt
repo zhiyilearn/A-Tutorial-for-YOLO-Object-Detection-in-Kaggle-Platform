@@ -50,14 +50,13 @@ input: select the dataset you select tutorialforyolodataset
 Output: /kaggle/working
  (Reason is that this directory you can read/write files)
 
-
-                                    Section 2 script summary:
-                                       Copy data from input directory to /kaggle/working directory. 
-                                       Prepare YOLO format XML file
-                                       Create anchors. 
-                                      Train process,
-                                      Evaluation process. 
-                                      Prediction 
+Section 2 script summary:
+    Copy data from input directory to /kaggle/working directory. 
+    Prepare YOLO format XML file
+    Create anchors. 
+    Train process,
+    Evaluation process. 
+    Prediction 
                                                        
 3. Step to run in ARC machine huckleberry1.arc.vt.edu
 1. Upload tutorialforyolodataset.zip file to ARC machine and unzip it (unzip tutorialforyolodatasetForArc.zip). (from this directory: /groups/songli_lab/CornImageAnalysis)
@@ -69,10 +68,8 @@ Output: /kaggle/working
     module load gcc cuda Anaconda3 jdk
     source activate powerai16_ibm
 
-
 4. python xml_to_yolo_for_train.py
 python xml_to_yolo_for_test.py
-
 
 5. # Get anchor information
 python kmeans.py, #update the results in model_data/yolo_anchors.txt
