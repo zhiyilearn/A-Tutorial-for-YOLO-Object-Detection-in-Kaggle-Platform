@@ -1,4 +1,9 @@
-﻿1. Preprocessing:
+# This tutorial is developed by Zhiyi Li, Kshitiz Dhakal, and Dr. Song Li, from Department of Plant and Environmental Science, Virginia Tech, Blacksburg, VA. It is free to download to teach students to write Jupter Notebook scripts.
+
+We use Open Source keras-yolo3 code from:
+         https://github.com/qqwweee/keras-yolo3
+
+1. Preprocessing:
 1.1 Merge RGB images with MiCaSense scripts.
       Install Micasense library in micasense directory.
       Install exiftool.exe in PC or Mac by following instructions at:
@@ -24,8 +29,6 @@ https://exiftool.org/
 
 2. Kaggle Jupyter Notebook
 2.1 Create your own kaggle account.
-Make sure the setting is same as below:
-  
 
 2.2 Upload dataset: 
          click Data in left menu, 
